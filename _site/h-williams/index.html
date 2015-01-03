@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+    	<title>UGRR Orbitist | Harrison Williams</title>
+    	
+    	<meta name="author" content="Orbitist Support">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    	
+    	<!-- Twitter Cards -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@TheOrbitist">
+	
+	<meta name="twitter:creator" content="@">
+	<meta name="twitter:title" content="Harrison Williams">
+	<meta name="twitter:description" content="">
+	<meta name="twitter:image:src" content="http://orbitist.s3.amazonaws.com/ugrr/img/top-story/fourrefugees.jpg">
+    
+	<!-- Shortcut icon -->
+	<link rel="shortcut icon" href="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/logo_blue_button_100.png">
+	<!-- Apple icon -->
+	<link rel="apple-touch-icon" sizes="152x152" href="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/touch-icon-ipad-retina.png">
+	
+	
+	<!-- jQuery -->
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	
+	<!-- Mapbox JS -->
+	<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
+	
+	<!-- Mapbox CSS -->
+	<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
+	
+
+	<!-- Sidr CSS -->
+	<link rel="stylesheet" href="/css/sidr.css">
+
+	<!-- Font Awesome CSS -->
+    	<link rel="stylesheet" href="/plugins/font-awesome/css/font-awesome.min.css">
+    
+	<!-- Bootstrap CSS -->
+    	<link rel="stylesheet" href="/plugins/bootstrap/css/bootstrap.min.css">
+    
+    	<!-- Leaflet Awesome markers CSS and JS -->
+    	<link rel="stylesheet" href="/plugins/leaflet-awesome/dist/leaflet.awesome-markers.css">
+    	<script src="/plugins/leaflet-awesome/dist/leaflet.awesome-markers.js"></script>
+    
+    	<!-- Leaflet Maki Markers -->
+    	<script src="/plugins/leaflet-maki/Leaflet.MakiMarkers.js"></script>
+    	
+    	<!-- Leaflet Marker Cluster -->
+    	<link rel="stylesheet" href="/plugins/leaflet-markercluster/dist/MarkerCluster.css">
+    	<link rel="stylesheet" href="/plugins/leaflet-markercluster/dist/MarkerCluster.Default.css">
+    	<script src="/plugins/leaflet-markercluster/dist/leaflet.markercluster-src.js"></script>
+    	
+<!-- Talkie -->
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="http://kiln.it/talkie-1.min.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="http://kiln.it/talkie/ui/1.0/talkie.css">
+<script src="/plugins/talkie/talkie-leaflet.js" charset="utf-8"></script>
+		
+		<!-- Lightbox -->
+		<script src="/plugins/lightbox/js/lightbox.min.js"></script>
+		<link href="/plugins/lightbox/css/lightbox.css" rel="stylesheet" />
+
+	<!-- Google fonts roboto slab and Quatrocentro-->
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:700' rel='stylesheet' type='text/css'>
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+
+	<body>
+
+		
+		<!-- Logo -->	
+<a id="sidr-menu" href="#sidr">
+	<img class="logooverlay" src="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/logo_blue_button_100.png">
+</a>
+
+
+<!-- Maptoggle -->
+<button type="button" id="maptoggle" class="btn btn-default maptoggle" data-toggle="tooltip" title="Toggle story" data-placement="left"><i class="fa fa-bars"></i> <i class="fa fa-caret-right"></i></button>
+
+<!-- map -->
+<div class="map" id="map"></div>
+
+<!-- Sidepanel -->
+<div id="sidepanel">
+	<div class="topstory">
+		<div class="topstorytext">
+			
+			<div class="topstorytitle">Harrison Williams</div><!-- topstorytitle -->
+			<div class="topstorydescription"></div><!-- topstorydescription -->
+		</div><!-- topstorytext -->
+		<div class="topstoryoverlay"></div><!-- topstoryoverlay -->
+		<img class="img-responsive" src="http://orbitist.s3.amazonaws.com/ugrr/img/top-story/fourrefugees.jpg">
+	</div><!-- topstory -->
+	
+	<div class="sidebarcontent">
+		<!-- Author by line -->
+		
+      	   
+ 		<div class="author">By <a href="http://www.twitter.com/">Douglas H. Shepard</a></div>
+ 		
+		<p>In October 1851, slave catchers appeared in southern Chautauqua County, recaptured the 19-year-old refugee Harrison Williams (also known as William Harrison and William Henry Harrison), transported him to court in Buffalo, and then returned him to slavery.</p>
+
+<p>On the 12th or 13th of January in 1851, Williams had escaped from his owner Dr. N. D. Parran (also spelled Perren, Perrin, and Parron) in Hardy County, VA. Williams eventually found refuge at the farm of William Storum <i onclick="map.setView( [42.013782, -79.32585], 14, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+, a free African American who lived with his family in the Town of Busti, south of Jamestown near the Pennsylvania State Line.</p>
+
+<p>It was on the morning of September 30 that the southerners kidnapped Williams from the Storum farm and rushed him to Buffalo. The trial was in Federal court the next day. By October 2, Williams was on a train heading back to slavery in Virginia under the custody of a U.S. Marshal.</p>
+
+<p><small>Illustration 2:</small></p>
+
+<p><a href="http://orbitist.s3.amazonaws.com/ugrr/4-harrison-williams/Illustration2.jpg" data-lightbox="williams-story"><img src="http://orbitist.s3.amazonaws.com/ugrr/4-harrison-williams/Illustration2.jpg" /></a></p>
+
+<p>The story of the trial appeared in the New York Times (Illustration 2) and in the Buffalo Commercial Advertiser on October 2, and follow-ups appeared in the Buffalo Daily Courier, the Buffalo Morning Express, and the Jamestown Journal on October 3. The Buffalo accounts differed slightly from one another, depending upon whether or not the paper’s editor was an anti-slavery man. The Commercial Advertiser and the Buffalo Morning Express were sympathetic toward Williams; the Buffalo Daily Courier was sympathetic toward the court.</p>
+
+<p>There are differences among the other accounts as well. For example, the Jamestown account said that Williams had been working in southern Chautauqua County for the African American farmer Lewis (or Nevis) Clark(e), a relative of Storum.</p>
+
+<p>Once Williams was returned to slavery, there was no word from him until the Jamestown News of February 12, 1864 reported that Sergeant J. W. Broadhead of Busti had encountered Williams during the Civil War. Williams told Broadhead that Parran had sent him to New Orleans to be sold, and that from there, he had been sold a second time into northern Georgia. There he was taken into the “rebel army” as an officer’s servant, but escaped “into the Union lines” and became a servant to officers there.</p>
+
+<p>Forty years after his escape and recapture, William’s story appeared again in the Jamestown Saturday Times  of July 18, 1891, where the writer Palmer K. Shankland revealed the names of abolitionists who tried to save Williams from his return to slavery. Among those who attempted to block the recapture were Levi Jones <i onclick="map.setView( [42.0364, -79.31020], 14, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+, Lewis Clark(e), Marinda Storum, and Henry Storum.</p>
+
+<p>Among those who attempted to rescue Williams from his captors were Jabez Broadhead and Norman Backus <i onclick="map.setView( [42.04420, -79.28730], 14, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+, who followed Williams’ captors to Jamestown. There, Broadhead and Backus enlisted the help of Silas Shearman <i onclick="map.setView( [42.09730691, -79.240179], 14, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+, Judge Hazeltine <i onclick="map.setView( [42.09177386, -79.23481], 14, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+, and Frank Palmer <i onclick="map.setView( [42.09591, -79.2462], 14, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+, and they sent a telegraph to Dunkirk’s George French <i onclick="map.setView( [42.48119, -79.33329], 14, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+, who lived on Lake Erie in northern Chautauqua County.</p>
+
+<p>According to Shankland, Shearman sped toward Dunkirk and was given fresh horses by Milton Smith <i onclick="map.setView( [42.315083, -79.3624], 14, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+ in Stockton NY. Shearman changed horses again in Dunkirk and continued on toward Buffalo. Meanwhile, Humphrey Pratt <i onclick="map.setView( [41.9832, -79.2975], 14, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+, another abolitionist from southern Chautauqua County and northern Pennsylvania was also on his way to Buffalo. Since French had telegraphed abolitionist friends in Buffalo, the court was reputedly filled with angry onlookers, who to no avail protested Williams’ recapture.</p>
+
+<p>Meanwhile, Shankland said, efforts were underway back in the Town of Busti to secure the safety of the other six men who had been in Williams’ party of refugees. They were sheltered by John Broadhead, Thomas Danforth, Theron Plumb, and then next concealed by Dr. Catlin in Sugar Grove, PA and by other abolitionists in northern Pennsylvania before being “quietly passed along the ‘underground railway’ to Canada.”</p>
+
+<p>However, shortly after Shankland’s article appeared in the Jamestown Saturday Times, a long-awaited, eye-witness account appeared. It was found in the Jamestown Journal, and in the Warren, PA Ledger of August 7, 1891. It seems to have been submitted in care of Warren resident A. H. McKelvey. It was signed by “A Sugar Grove Correspondent,” who wrote, “Although I was young at the time, I remember the kidnapping of Harrison very well. But what facts I write in this case I have received from conversing with those who are still living and were intimately connected with the construction and equipment of the underground railroad of forty years ago.</p>
+
+<p>“The seven runaway slaves all bore fictitious names. We knew the boy who was kidnapped as William Henry Harrison, instead of Harrison Williams. The mother of Henry Storum was the woman who tried to help Harrison make his escape, and Marinda, a sister of Henry’s, pushed the gun aside when Henry attempted to shoot and disable the horses of the kidnapping party.</p>
+
+<p>“Loren Blodgett [son of Arba Blodgett <i onclick="map.setView( [42.00759, -79.35937], 14, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+], another person who was an active Abolitionist, notified Humphrey Pratt at once, and they rode on horseback in hot pursuit to Jamestown, the latter riding Prince, a colt of the noted Falconer Durac. Prince received a permanent injury in this race, but lived to the great age of about 30 years. Pratt, instead of going to Buffalo as stated, took the Randolph road, to meet his son and Billy McCoo, another slave, whom he had sent there on business, and thought perhaps they might meet and have trouble with the kidnappers, who it was thought by some would go via Salamanca. It was afterwards learned they were making for Buffalo, where the only U.S. Marshal in this section was stationed. Billy McCoo was in Jamestown and saw Dr. Perrin, Harrison’s master, riding with the kidnapping party, and hastened with the other slaves (who were there attending a circus) to the Marvin swamp, where they remained until after dark, and then made their way to friends [in] Sugar Grove.</p>
+
+<p>“Lewis Clark, better known in the play of ‘Uncle Tom’s Cabin’ as Geo. Harris, was a noted Abolition lecturer, a slave, and brother-in-law of Henry Storum. He was censured unjustly at the time by pro-slavery men for cowardice in not helping to save Harrison, but as soon as he could get his arms in condition he mounted his horse and followed the slave-holders, and was sitting on his horse in Jamestown exciting the people to action, when Pratt and Blodgett arrived in the city. The late Heaman Wodard, then a young boat hand on Lake Erie, happened to be in Buffalo and helped to organize a mob to release Harrison, but the officers, knowing they were protected by the fugitive slave law, were encouraged to help return Harrison to his Virginia master. Two of the seven slaves had previously returned to Virginia against the wishes of their comrades to help their wives escape, and it was afterwards learned that they were captured and whipped until they confessed where Harrison and the others were located.</p>
+
+<p>“The other four slaves were concealed on Lanning Hill, then owned by Seth McDaniels <i onclick="map.setView( [41.954734, -79.2739], 14, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+, for several days, and fed by their friends. Those who saw them said they were well fortified on the hay mow with clubs and stones, and meant to fight to a finish. When they decided to make their way toward the north star, Mrs. Pratt cooked them a midnight meal, and sent them on their way rejoicing. They went to Beaver Dam, Pa., were secreted by a wealthy farmer—William Gray <i onclick="map.setView( [41.9262, -79.7496], 14, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+—who delivered them on a boat at Erie, which landed them safely in Canada.”</p>
+
+<p>You can read the entire Harrison Williams story <a href="http://www.co.chautauqua.ny.us/DocumentCenter/Home/View/1301">here</a>.</p>
+
+		
+		
+	<!-- Sharers -->
+		<div class="sharers">
+			<a href="http://twitter.com/share?url=/h-williams&text=Harrison Williams" target="_blank"><span class="fa fa-twitter"></span></a>&nbsp;<a href="http://www.facebook.com/sharer.php?u=/h-williams" target="_blank""><span class="fa fa-facebook-square"></span></a>
+		</div>
+	<!-- Sources -->
+		
+	<!-- Author block -->
+      	   
+ 		<div class="authorblock">
+ 			<table>
+ 				<tr>
+ 					<td>
+      						<img style="width:75px; height:75px;" src="http://www.fredonia.edu/department/english/images/dougshepard.jpg" class="img-circle">
+    					</td>
+    					<td>
+    						<h4>Doug Shepard<br><small><a href="http://www.twitter.com/">@</a></small></h4>
+    					</td>
+    				</tr>
+    			</table>
+		</div><!-- authorblock -->
+		
+	</div><!-- sidebarcontent -->
+</div><!-- sidepanel -->
+
+
+
+		
+<!-- Sidr -->		
+<div id="sidr">
+  <a href=""><div class="orbitist">UGRR Orbitist</div></a>
+  <ul>
+  	
+  	
+  	
+    <li><a href="/intro">Intro</a></li>
+    
+    
+  	
+  	
+    <li><a href="/database">Browse names</a></li>
+    
+    
+  	
+  	
+    <li><a href="/four-refugees">Four refugees</a></li>
+    
+    
+  	
+  	
+    <li><a href="/joseph-mary-james">Joseph, Mary, and James Norton</a></li>
+    
+    
+  	
+  	
+    <li><a href="/h-williams">Harrison Williams</a></li>
+    
+    
+  </ul>
+  <div class="footerlinks">
+  <a href="/2014/05/13/about-orbitist/">About</a> | <a href="/pages/contact.html">Contact</a> | <a href="/pages/help.html">Help</a><br>
+
+  <p><a href="http://www.twitter.com/theorbitist"><span class="fa fa-twitter"></a></span>&nbsp;<a href="https://www.facebook.com/Orbitist"><span class="fa fa-facebook"></span></a></p>
+  &copy; Orbitist
+  </div><!-- footerlinks -->
+</div><!-- sidr -->
+
+		
+		<!-- Fastclick pluggin to remove the starttouch functionality from iphones etc -->
+<script type='application/javascript' src='/plugins/fastclick/lib/fastclick.js'></script>
+<script>
+	window.addEventListener('load', function() {
+    	FastClick.attach(document.body);
+	}, false);
+</script>
+	
+
+    <!-- Mapbox baselayer and Tilemill tiles -->
+    <script>
+        var map = L.mapbox.map('map', 'orbitist.ie90k9cc', {
+    		tileLayer: {
+        		detectRetina: true,
+        		closeButton: false,
+        		maxZoom: 22
+    		}
+		}).setView([42.293564192170095, -79.365234375], 9);
+		var layer = L.mapbox.tileLayer('', {
+    		detectRetina: true,
+                maxZoom: 22
+		}).addTo(map);
+	</script>
+     
+     
+
+	
+<!-- Custom JS file -->
+	<script src="http://orbitist.s3.amazonaws.com/2014/07-ugrr/custom.js"></script>
+
+	
+<!-- Orbitist API GeoJSON layer -->
+<script>
+    // Orbitist api pulled in
+var orbitistApiGeoJson = ;
+  
+var orbitistIcon = L.MakiMarkers.icon({
+    icon: "circle",
+    color: "#2675a2",
+    size: "m"
+});
+
+function orbitistApiPopup(feature, layer) {
+    // does this feature have a property named popupContent?
+    if (feature.properties && feature.properties.name) {
+        layer.bindPopup('<h1>' + feature.properties.name + '</h1><p>' + feature.properties.description + '</p>', {closeButton: false});
+    }
+}
+
+L.geoJson(orbitistApiGeoJson, {
+    pointToLayer: function (feature, latlng) {
+        return L.marker(latlng, {icon: orbitistIcon});
+    },
+    onEachFeature: orbitistApiPopup
+}).addTo(map);
+
+
+</script>
+
+
+
+    
+<!-- Bootstrap JS -->
+	<script src="/plugins/bootstrap/js/bootstrap.min.js"></script>
+	
+<!-- FitVids JS -->
+	<script src="/plugins/fitvids/jquery.fitvids.js"></script>
+	
+<!-- Fitvids variables -->
+	<script>
+  $(document).ready(function(){
+    // Target your .container, .wrapper, .post, etc.
+    $('#sidepanel').fitVids();
+  });
+  
+  $('.leaflet-popup-content').fitVids();
+	</script>
+	
+<!-- Sidr JS -->
+	<script src="/plugins/sidr/jquery.sidr.min.js"></script>
+	<script>
+$(document).ready(function() {
+  $('#sidr-menu').sidr();
+});
+</script>
+
+<script>
+$(document).ready(function() {
+    $('#sidr-menu').sidr({
+      name: 'sidr-left',
+      side: 'left' // By default
+    });
+    $('#maptoggle').sidr({
+      name: 'sidepanel',
+      side: 'right',
+      displace: false
+    });
+    if($(window).width() <= 580) {
+     $('.changeview').sidr({
+      name: 'sidepanel',
+      side: 'right',
+      displace: false
+    });
+    }
+});
+</script>
+	
+<!-- Tooltips -->
+<script>
+$('#maptoggle').tooltip('show')
+</script>
+
+<!-- Auto click maptoggle -->
+<script>
+    var delay=1000;//1 seconds
+    setTimeout(function(){
+  $(document).ready(function(){ 
+  $('#maptoggle').trigger('click'); 
+  });
+    },delay);
+</script>
+        
+
+<!-- Google Analytics -->
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'orbitist.com/ugrr');
+  ga('send', 'pageview');
+
+	</script>
+
+	</body>
+</html>

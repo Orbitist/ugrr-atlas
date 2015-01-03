@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="utf-8">
+    	<title>UGRR Orbitist | Joseph, Mary, and James Norton</title>
+    	
+    	<meta name="author" content="Orbitist Support">
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    	
+    	<!-- Twitter Cards -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@TheOrbitist">
+	
+	<meta name="twitter:creator" content="@">
+	<meta name="twitter:title" content="Joseph, Mary, and James Norton">
+	<meta name="twitter:description" content="">
+	<meta name="twitter:image:src" content="http://orbitist.s3.amazonaws.com/ugrr/img/top-story/fourrefugees.jpg">
+    
+	<!-- Shortcut icon -->
+	<link rel="shortcut icon" href="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/logo_blue_button_100.png">
+	<!-- Apple icon -->
+	<link rel="apple-touch-icon" sizes="152x152" href="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/touch-icon-ipad-retina.png">
+	
+	
+	<!-- jQuery -->
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	
+	<!-- Mapbox JS -->
+	<script src='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.js'></script>
+	
+	<!-- Mapbox CSS -->
+	<link href='https://api.tiles.mapbox.com/mapbox.js/v1.6.2/mapbox.css' rel='stylesheet' />
+	
+
+	<!-- Sidr CSS -->
+	<link rel="stylesheet" href="/css/sidr.css">
+
+	<!-- Font Awesome CSS -->
+    	<link rel="stylesheet" href="/plugins/font-awesome/css/font-awesome.min.css">
+    
+	<!-- Bootstrap CSS -->
+    	<link rel="stylesheet" href="/plugins/bootstrap/css/bootstrap.min.css">
+    
+    	<!-- Leaflet Awesome markers CSS and JS -->
+    	<link rel="stylesheet" href="/plugins/leaflet-awesome/dist/leaflet.awesome-markers.css">
+    	<script src="/plugins/leaflet-awesome/dist/leaflet.awesome-markers.js"></script>
+    
+    	<!-- Leaflet Maki Markers -->
+    	<script src="/plugins/leaflet-maki/Leaflet.MakiMarkers.js"></script>
+    	
+    	<!-- Leaflet Marker Cluster -->
+    	<link rel="stylesheet" href="/plugins/leaflet-markercluster/dist/MarkerCluster.css">
+    	<link rel="stylesheet" href="/plugins/leaflet-markercluster/dist/MarkerCluster.Default.css">
+    	<script src="/plugins/leaflet-markercluster/dist/leaflet.markercluster-src.js"></script>
+    	
+<!-- Talkie -->
+<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="http://kiln.it/talkie-1.min.js" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="http://kiln.it/talkie/ui/1.0/talkie.css">
+<script src="/plugins/talkie/talkie-leaflet.js" charset="utf-8"></script>
+		
+		<!-- Lightbox -->
+		<script src="/plugins/lightbox/js/lightbox.min.js"></script>
+		<link href="/plugins/lightbox/css/lightbox.css" rel="stylesheet" />
+
+	<!-- Google fonts roboto slab and Quatrocentro-->
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,700,100' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Quattrocento+Sans:700' rel='stylesheet' type='text/css'>
+
+	<!-- Custom CSS -->
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+
+	<body>
+
+		
+		<!-- Logo -->	
+<a id="sidr-menu" href="#sidr">
+	<img class="logooverlay" src="http://orbitist.s3.amazonaws.com/_toplevel/images/logos/logo_blue_button_100.png">
+</a>
+
+
+<!-- Maptoggle -->
+<button type="button" id="maptoggle" class="btn btn-default maptoggle" data-toggle="tooltip" title="Toggle story" data-placement="left"><i class="fa fa-bars"></i> <i class="fa fa-caret-right"></i></button>
+
+<!-- map -->
+<div class="map" id="map"></div>
+
+<!-- Sidepanel -->
+<div id="sidepanel">
+	<div class="topstory">
+		<div class="topstorytext">
+			
+			<div class="topstorytitle">Joseph, Mary, and James Norton</div><!-- topstorytitle -->
+			<div class="topstorydescription"></div><!-- topstorydescription -->
+		</div><!-- topstorytext -->
+		<div class="topstoryoverlay"></div><!-- topstoryoverlay -->
+		<img class="img-responsive" src="http://orbitist.s3.amazonaws.com/ugrr/img/top-story/fourrefugees.jpg">
+	</div><!-- topstory -->
+	
+	<div class="sidebarcontent">
+		<!-- Author by line -->
+		
+      	   
+ 		<div class="author">By <a href="http://www.twitter.com/">Douglas H. Shepard</a></div>
+ 		
+		<p>Joseph (Jo) Norton was a refugee from slavery in the mid-1840s. He lived, worked, and studied in various places in New York State. A group of abolitionists in Chautauqua County and Cattaraugus County were instrumental in helping Norton to purchase the freedom of his wife Mary and son James, who had been forced to remain in slavery for more than a year after his escape.</p>
+
+<p>One of Norton’s benefactors in both counties was Eber M. Pettit <i onclick="map.setView( [42.51880, -78.9924], 14, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+, who ran a UGRR station in Versailles (Cattaraugus County) NY, and whose father James Pettit <i onclick="map.setView( [42.4493, -79.3531], 14, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+ ran a UGRR station in Fredonia (Chautauqua County) NY. Many years after the events occurred, Pettit wrote about Norton’s escape as part of a series of 1867 articles in the Fredonia (NY) Censor, which were published in an 1879 book. Correspondence found in the <a href="http://www.mcclurgmuseum.org/collection/archives/elial_t_foote_papers/elial_t_foote_papers.html">Foote papers</a>, the anti-slavery collection of Judge Elial T. Foote <i onclick="map.setView( [42.09674, -79.23524], 19, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+, verifies most of Pettit’s account of the purchase of freedom for Mary and James.</p>
+
+<p>Pettit said Norton’s escape from the District of Columbia (DC) also included two other men and two women. Pettit indicated that at least Norton had been encouraged to escape by an unnamed northerner. The entire party may have been slaves of Norton’s master, “Colonel Hardy, a tobacco planter residing in the District, about five miles from the city.” Although Pettit gave the year as 1839, it was most likely 1843. The Colonel’s intensive search for the party was abandoned almost immediately, because within a few days of the escape, he received an anonymous letter containing a clipping or reprint from the <em>Liberty Press</em> in Albany NY.</p>
+
+<p>The Albany article reported that the five refugees had arrived there “by the quickest passage on record.” The article also gave details that only Colonel Hardy’s slaves would have known. However, Pettit explained, the Albany article was a ruse, perpetrated by UGRR operatives. In reality, the five escapees were still in hiding in the Baltimore area. Pettit said, “The plan adopted by the enterprising managers of the UGRR to mislead the owners of the fugitives, and induce them to give up the chase, was kept secret a long time, and great numbers escaped thereby without capture or accident between the Capitol city of the Nation to that of our own State.”</p>
+
+<p>According to Pettit, Norton and the other four people had arrived at a cemetery in the northeast corner of DC on the appointed hour of the evening of an appointed date. In fact, the cemetery may be seen on the map of the City of Washington published by Thomas, Cowperthwaite &amp; Co., Philadelphia, 1850. (Illustration 1.) Although each had been told that there would be others in the party, none knew precisely who the others would be. Upon a pre-planned signal, all came out from hiding in the cemetery, and were instructed to follow the turnpike to the railway, and then to follow the tracks until another conductor intercepted them and gave another pre-arranged signal.</p>
+
+<p><small>Illustration 1:</small>
+<a href="http://orbitist.s3.amazonaws.com/ugrr/2-four-refugees/images/illustration1-large.jpg" data-lightbox="four-refugees"><img src="http://orbitist.s3.amazonaws.com/ugrr/2-four-refugees/images/Illustration1-medium.jpg" /></a></p>
+
+<p>According to Pettit, the trek from the cemetery to the meeting with the second conductor was a trip of 30 miles that took place on foot during a single night. The exhausted refugees were taken to a secluded corn field where they were allowed to sleep for the day. At dark, the two women were led to a carriage and driven away. The men continued to hide until they were assured by their guide that the Colonel’s search had been abandoned.</p>
+
+<p>The men then made their way on foot through Baltimore, guided by a young boy who posed as their friend or relative. According to Pettit, the boy instructed the three refugees to stop and buy apples and peanuts, and to talk loudly about the “religious meeting” they had supposedly just attended. On the northern outskirts of Baltimore, the three men rejoined the two women, and the party began the next leg of the journey. Traveling on foot at night and “stopping through the day at farm houses with Quakers,” Norton and his party reached Philadelphia, where they were placed on a fishing boat to reach Bordentown NJ.</p>
+
+<p>They were next placed on an actual train to Albany, the two women dressed in finery and veils and accompanied by a UGRR operative who posed as a brusque and pompous southerner, Pettit said. Norton and the other two men were hidden in freight cars. In Albany, Norton expected to meet his wife and son, who were to have escaped by a different route. However, Pettit said, Norton was told that Mary’s owner, whose name was recorded simply as Judson, had suspected her plans to flee, and had thrown her into prison until she could be sold “to be sent to the rice swamps, the worst punishment that could be inflicted upon a slave.”</p>
+
+<p>Mary had been pregnant with her second child, but lost the baby in prison. Judson relented in time to save Mary’s life, and she was released back to his custody. About a year after Norton’s own escape, he learned that his wife and son were still alive and were still with Judson.</p>
+
+<p>Norton had traveled west from Albany, eventually arriving at Pettit’s UGRR station in Versailles, where Norton worked, most likely on the farms of Pettit’s son-in-law D. R. Barker, who lived at the same station. Norton also attended a small school to learn to read and write. At Pettit’s suggestion, he and Norton wrote to friends and colleagues in the anti-slavery community, to inquire about Mary and James, and to propose the purchase of their freedom. Five pieces of this correspondence may be found in the <a href="http://www.mcclurgmuseum.org/collection/archives/elial_t_foote_papers/elial_t_foote_papers.html">Foote papers</a>.</p>
+
+<p>First, there is a letter of 25 January 1845, in which Pettit explained to Foote that the well known abolitionist William L. Chaplin had drawn up a contract with Judson that would free Mary. In that letter, Pettit said that he and Norton were making every attempt to raise the required $300.  Second, on the same sheet of paper in the same handwriting is a note from Norton to Foote, requesting a loan and promising to pay it back.</p>
+
+<p>Third, there is a letter to Foote dated 6 February 1845 and signed by Pettit, B. Chamberlain <i onclick="map.setView( [42.17110, -78.9511], 14, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+, W. P. Angel <i onclick="map.setView( [42.27389, -78.6760], 14, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+, H. Colman <i onclick="map.setView( [42.481825, -79.33419], 16, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+, and E. S. Colman <i onclick="map.setView( [42.4876097, -79.332457], 16, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+. The letter explains that Norton and Pettit already have $100 and will raise another $100 in Cattaraugus County. It goes on to request that Foote and his Chautauqua County colleagues raise the additional $100. Fourth, there is Foote’s reply, co-signed by N. A. Lowry <i onclick="map.setView( [42.091949, -79.23345], 19, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+, and pledging to raise the $100 in Chautauqua County. The fourth and fifth letters both refer to Asher Tyler <i onclick="map.setView( [42.27392, -78.675147], 16, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+, who was most likely advancing the money to Judson in DC. Pettit later stated in his memoir that T. R. Colman <i onclick="map.setView( [42.4815, -79.3357], 16, { animate: true, duration: 0.25, easeLinearity: 0.25 });" class="fa fa-globe btn btn-success btn-sm changeview"></i>
+, who was not only a banker but also a business colleague of Tyler and a brother of H. Colman and E. S. Colman, had raced through a blinding snow storm to Buffalo, in order to wire funds to DC.</p>
+
+<p>Finally, there is a fifth letter in the <a href="http://www.mcclurgmuseum.org/collection/archives/elial_t_foote_papers/elial_t_foote_papers.html">Foote papers</a> pertaining to Norton. It is Pettit’s 25 April 1845 letter to Foote, reporting that Chaplin had arrived in Utica with Mary and James, and that Norton was racing there to join them. Norton had already reimbursed his benefactors all but $37.35.</p>
+
+<p>According to Pettit, the Norton family settled in Syracuse and enjoyed a comfortable living there until late in 1851, when Norton participated in the “Jerry Rescue,” an attempt to free another refugee who was about to be sent back to slavery under the Fugitive Slave Law. In the melee, Pettit said, Norton struck a marshal with a crow bar, breaking his arm. At that point, Norton decided that he and his family would be safer in Canada. Pettit said, “He settled in Toronto, where he was respected as a citizen, and took a great interest in the education of his family, and in promoting the best interests of fugitives who were constantly arriving there.”</p>
+
+<p>You can read the entire Joseph, Mary, and James story <a href="http://www.co.chautauqua.ny.us/DocumentCenter/Home/View/1302">here</a>.</p>
+
+<h3 id="continue-to-harrison-williamsh-williams">Continue to <a href="/h-williams/">Harrison Williams</a></h3>
+
+		
+		
+	<!-- Sharers -->
+		<div class="sharers">
+			<a href="http://twitter.com/share?url=/joseph-mary-james&text=Joseph, Mary, and James Norton" target="_blank"><span class="fa fa-twitter"></span></a>&nbsp;<a href="http://www.facebook.com/sharer.php?u=/joseph-mary-james" target="_blank""><span class="fa fa-facebook-square"></span></a>
+		</div>
+	<!-- Sources -->
+		
+	<!-- Author block -->
+      	   
+ 		<div class="authorblock">
+ 			<table>
+ 				<tr>
+ 					<td>
+      						<img style="width:75px; height:75px;" src="http://www.fredonia.edu/department/english/images/dougshepard.jpg" class="img-circle">
+    					</td>
+    					<td>
+    						<h4>Doug Shepard<br><small><a href="http://www.twitter.com/">@</a></small></h4>
+    					</td>
+    				</tr>
+    			</table>
+		</div><!-- authorblock -->
+		
+	</div><!-- sidebarcontent -->
+</div><!-- sidepanel -->
+
+
+
+		
+<!-- Sidr -->		
+<div id="sidr">
+  <a href=""><div class="orbitist">UGRR Orbitist</div></a>
+  <ul>
+  	
+  	
+  	
+    <li><a href="/intro">Intro</a></li>
+    
+    
+  	
+  	
+    <li><a href="/database">Browse names</a></li>
+    
+    
+  	
+  	
+    <li><a href="/four-refugees">Four refugees</a></li>
+    
+    
+  	
+  	
+    <li><a href="/joseph-mary-james">Joseph, Mary, and James Norton</a></li>
+    
+    
+  	
+  	
+    <li><a href="/h-williams">Harrison Williams</a></li>
+    
+    
+  </ul>
+  <div class="footerlinks">
+  <a href="/2014/05/13/about-orbitist/">About</a> | <a href="/pages/contact.html">Contact</a> | <a href="/pages/help.html">Help</a><br>
+
+  <p><a href="http://www.twitter.com/theorbitist"><span class="fa fa-twitter"></a></span>&nbsp;<a href="https://www.facebook.com/Orbitist"><span class="fa fa-facebook"></span></a></p>
+  &copy; Orbitist
+  </div><!-- footerlinks -->
+</div><!-- sidr -->
+
+		
+		<!-- Fastclick pluggin to remove the starttouch functionality from iphones etc -->
+<script type='application/javascript' src='/plugins/fastclick/lib/fastclick.js'></script>
+<script>
+	window.addEventListener('load', function() {
+    	FastClick.attach(document.body);
+	}, false);
+</script>
+	
+
+    <!-- Mapbox baselayer and Tilemill tiles -->
+    <script>
+        var map = L.mapbox.map('map', 'orbitist.ie90k9cc', {
+    		tileLayer: {
+        		detectRetina: true,
+        		closeButton: false,
+        		maxZoom: 22
+    		}
+		}).setView([42.293564192170095, -79.365234375], 9);
+		var layer = L.mapbox.tileLayer('', {
+    		detectRetina: true,
+                maxZoom: 22
+		}).addTo(map);
+	</script>
+     
+     
+
+	
+<!-- Custom JS file -->
+	<script src="http://orbitist.s3.amazonaws.com/2014/07-ugrr/custom.js"></script>
+
+	
+<!-- Orbitist API GeoJSON layer -->
+<script>
+    // Orbitist api pulled in
+var orbitistApiGeoJson = ;
+  
+var orbitistIcon = L.MakiMarkers.icon({
+    icon: "circle",
+    color: "#2675a2",
+    size: "m"
+});
+
+function orbitistApiPopup(feature, layer) {
+    // does this feature have a property named popupContent?
+    if (feature.properties && feature.properties.name) {
+        layer.bindPopup('<h1>' + feature.properties.name + '</h1><p>' + feature.properties.description + '</p>', {closeButton: false});
+    }
+}
+
+L.geoJson(orbitistApiGeoJson, {
+    pointToLayer: function (feature, latlng) {
+        return L.marker(latlng, {icon: orbitistIcon});
+    },
+    onEachFeature: orbitistApiPopup
+}).addTo(map);
+
+
+</script>
+
+
+
+    
+<!-- Bootstrap JS -->
+	<script src="/plugins/bootstrap/js/bootstrap.min.js"></script>
+	
+<!-- FitVids JS -->
+	<script src="/plugins/fitvids/jquery.fitvids.js"></script>
+	
+<!-- Fitvids variables -->
+	<script>
+  $(document).ready(function(){
+    // Target your .container, .wrapper, .post, etc.
+    $('#sidepanel').fitVids();
+  });
+  
+  $('.leaflet-popup-content').fitVids();
+	</script>
+	
+<!-- Sidr JS -->
+	<script src="/plugins/sidr/jquery.sidr.min.js"></script>
+	<script>
+$(document).ready(function() {
+  $('#sidr-menu').sidr();
+});
+</script>
+
+<script>
+$(document).ready(function() {
+    $('#sidr-menu').sidr({
+      name: 'sidr-left',
+      side: 'left' // By default
+    });
+    $('#maptoggle').sidr({
+      name: 'sidepanel',
+      side: 'right',
+      displace: false
+    });
+    if($(window).width() <= 580) {
+     $('.changeview').sidr({
+      name: 'sidepanel',
+      side: 'right',
+      displace: false
+    });
+    }
+});
+</script>
+	
+<!-- Tooltips -->
+<script>
+$('#maptoggle').tooltip('show')
+</script>
+
+<!-- Auto click maptoggle -->
+<script>
+    var delay=1000;//1 seconds
+    setTimeout(function(){
+  $(document).ready(function(){ 
+  $('#maptoggle').trigger('click'); 
+  });
+    },delay);
+</script>
+        
+
+<!-- Google Analytics -->
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'orbitist.com/ugrr');
+  ga('send', 'pageview');
+
+	</script>
+
+	</body>
+</html>
